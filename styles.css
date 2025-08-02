@@ -17,7 +17,9 @@ body {
     font-size: 64px;
     text-align: center;
     margin-top: 20px;
-    font-weight: 600;
+    font-weight: 900;
+    -webkit-text-stroke: 5.5px #35383F;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
 
 }
 
