@@ -63,3 +63,32 @@ body {
     cursor: pointer;
     box-shadow: inset 0 0 0 2px #206fb1, 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+
+@media (max-width: 600px) {
+    .container {
+        height: auto;
+        min-height: 100vh;
+        padding: 16px 0;
+    }
+    .title {
+        font-size: 9vw;
+        -webkit-text-stroke: 2.5px #35383F;
+    }
+    .instructions {
+        font-size: 4vw;
+    }
+    #result {
+        font-size: 5vw;
+    }
+    #flip-button {
+        font-size: 6vw;
+        padding: 10px 0;
+        width: 90vw;
+        max-width: 320px;
+    }
+    .coin img {
+        width: 40vw;
+        max-width: 180px;
+        height: auto;
+    }
+}
